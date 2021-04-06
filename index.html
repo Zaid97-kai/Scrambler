@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Взлом шифра!</title>
+	<link rel="shortcut icon" href="img/logo.ico">
+	<script src="script.js"></script>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="scrambler();">
+	<div class="header" id="myHeader"></div> 
+	<div id="title" class="labels">Шифр Цезаря</div>
+	<div id="container">
+	<div class="labels">Ключ: <div id="key" class="data_area"></div></div>
+	<div class="labels">Шифр: <div id="cipher" class="data_area"></div></div>
+	<div class="labels">Дешифровка: <input type="text" name="decrypt" id="input_decryption" placeholder="Введите дешифрованный текст..."></div>
+	<div id="res"></div>
+	<div id="div_button_accept_decryption">
+	<button name="decrypt_accept" class="button_accept_decryption" onclick="correctDecipherment();">Проверить</button></div>
+	</div>
+	<footer><b>© Автор программы - Заид Мингалиев</b></footer>
+</body>
+</html>
